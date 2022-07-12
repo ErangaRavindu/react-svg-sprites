@@ -1,23 +1,27 @@
-import logo from './logo.svg';
+
 import './App.css';
+import AmpleIcon from "./ample-icon/ample-icon";
 
 function App() {
-  return (
+
+    return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <h1>Ample icons</h1>
+        <div className="content-wrapper">
+          <div className="icons">
+              <AmpleIcon icon="data-2"/>
+              <AmpleIcon icon="heart"/>
+              <AmpleIcon icon="calendar-remove"/>
+              <AmpleIcon icon="refresh"/>
+              <AmpleIcon icon="align-left"/>
+              <AmpleIcon icon="clipboard-text"/>
+            <AmpleIcon icon="archive"/>
+            <AmpleIcon icon="home"/>
+            <AmpleIcon icon="clock"/>
+            <AmpleIcon icon="notification"/>
+            <AmpleIcon icon="candle"/>
+          </div>
+        </div>
     </div>
   );
 }

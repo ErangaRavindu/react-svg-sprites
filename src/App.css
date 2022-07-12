@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.App-icon,
+.App-icon svg {
+  width: 42px;
+  height: 42px;
+  fill: white;
+  color: white;
+}
+.content-wrapper{
+  display: flex;justify-content: center;
+}
+.icons{
+  width: 100%;
+  max-width: 840px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 4px;
+  grid-row-gap: 24px;
+
+}
