@@ -183,6 +183,7 @@ function writeTo(result, {file}) {
     const newSvg = HTMLParser.parse(svgString).querySelector(`svg#${HTML_SELECTOR}`);
     newSvg.setAttribute('id', HTML_SELECTOR);
 
+
     // replace old from new
     body.exchangeChild(oldSvg, newSvg);
 
