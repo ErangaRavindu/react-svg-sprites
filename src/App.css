@@ -38,15 +38,14 @@
 }
 
 .App-icon {
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
+  color: #667085;
 
 }
 .App-icon svg {
   width: 20px;
   height: 20px;
-  fill: white;
-  color: white;
 }
 .content-wrapper{
   display: flex;justify-content: center;
@@ -56,8 +55,7 @@
   max-width: 840px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-  gap: 24px;
-  grid-row-gap: 24px;
+
 
 }
 .app-icon-wrapper{
@@ -66,4 +64,8 @@
   align-items: center;
   justify-content: flex-start;
   gap: 12px;
+  border: 1px solid #888888;;
+  padding: 24px;
+  margin-left: -1px;
+  margin-top: -1px;
 }
