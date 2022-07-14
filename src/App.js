@@ -23,7 +23,7 @@ function App() {
               {elemts_ids.map(element => {
                   return (
                       <div className="app-icon-wrapper">
-                          <AmpleIcon type={"filled"} icon={element}/>
+                          <AmpleIcon type={"linear"} icon={element}/>
                           <label>{element}</label>
                       </div>
                   )
