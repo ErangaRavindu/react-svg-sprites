@@ -1,6 +1,6 @@
 
 import './App.css';
-import AmpleIcon from "./ample-icon/ample-icon";
+import AmpleIcon from "./lib/ample-icon/ample-icon";
 
 
 
