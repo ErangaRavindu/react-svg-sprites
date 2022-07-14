@@ -5,7 +5,7 @@ function AmpleIcon(props) {
         return (
 
             <svg viewBox="0 0 16 16" className="App-icon">
-                <use xlinkHref={"./linear-icons/icons.svg#" + props.icon } />
+                <use xlinkHref={"../linear-icons/icons.svg#" + props.icon } />
             </svg>
 
         );
@@ -14,7 +14,7 @@ function AmpleIcon(props) {
         return (
 
             <svg viewBox="0 0 16 16" className="App-icon">
-                <use xlinkHref={"./filled-icons/icons.svg#" + props.icon } />
+                <use xlinkHref={"../filled-icons/icons.svg#" + props.icon } />
             </svg>
 
         );
