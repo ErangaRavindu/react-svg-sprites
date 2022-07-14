@@ -18,7 +18,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "bundle-icons:client": "node utils/icons/icon-sprite-generator.js --src=./resources/icons --out=./public --config=./default.js"
+    "bundle-icons:linear": "node utils/icons/icon-sprite-generator.js --src=./resources/linear-icons --out=./public/linear-icons --config=./default.js",
+    "bundle-icons:filled": "node utils/icons/icon-sprite-generator.js --src=./resources/filled-icons --out=./public/filled-icons --config=./default.js"
   },
   "eslintConfig": {
     "extends": [
