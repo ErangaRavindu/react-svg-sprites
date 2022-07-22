@@ -1,6 +1,5 @@
 
 function AmpleIcon(props) {
-    console.log(props.type);
     if (props.type === 'linear'){
         return (
 
