@@ -1,3 +1,3 @@
-import AmpleIcon from "ample-icon/ample-icon";
+import AmpleIcon from "./icon-component/ample-icon";
 
 export { AmpleIcon };
